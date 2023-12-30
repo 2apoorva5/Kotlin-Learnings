@@ -49,7 +49,7 @@ fun main(args: Array<String>) {
 
     /** for loop with last number in range as exclusive ***************************************************************/
 
-    for (i in 1 until 10) {
+    for (i in 1..<10) {
         print("$i \t")
     }
 

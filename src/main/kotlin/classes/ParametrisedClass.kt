@@ -1,6 +1,6 @@
 package classes
 
-class Person2(name: String) {                 // parametrised class
+class Person2(name: String) {                 // parametrised class - primary constructor
     var firstName: String = name
 }
 

@@ -2,6 +2,11 @@ package basics
 
 fun main(args: Array<String>) {
 
+    /** Variable initialization ***************************************************************************************/
+
+    // var/val variableName: <DataType> = Literal
+
+
     /** Type Inference ************************************************************************************************/
 
     var number1 = 10
