@@ -52,7 +52,7 @@ fun main() {
     println(namesWithCondition)
 
 
-    // mapNotNullIndexed { }
+    // mapIndexedNotNull { }
     val namesWithConditionAndIndex = people.mapIndexedNotNull { index, person ->
         if (person.nationality != "India") "$index -> ${person.firstName} ${person.lastName}" else null
     }
